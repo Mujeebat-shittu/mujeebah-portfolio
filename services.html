@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title> 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <a href="#"><img src="./images/logo.png" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bx bx-window-close' onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+
+<!--sub-header--> 
+<section class="sub-header" id="sub-header">
+    <h1><span>My</span>Services</h1>
+</section>
+
+
+    <!-- services section-->
+    <section class="services" id="services">
+        <div class="text-title">
+            <h2>What I <span>Do?</span></h2>
+        </div>
+        <div class="services-content">
+            <div class="box">
+                <div class="icons">
+                    <i class="bx bx-code"></i>
+
+                </div>
+                <h3>Frontend Development</h3>
+                <p>I take beautiful UI designs and bring them to life with clean, functional code. Using  HTML, CSS and JavaScript, I make sure every detail is just right.</p>
+                <a href="#" class="btn">Start a Project </a>
+            </div>
+
+
+                <div class="box">
+                    <div class="icons">
+                        <i class="bx bx-devices"></i>
+    
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p> Design is more than just making things look pretty, it's about solving problem in a user-friendly way. Approaching UI/UX with a focus
+                        on the end-user, I help create functional, intuitive and exceptional user interface.Let's create an experience that delights your users and align with your goals</p>
+                    <a href="#" class="btn">Start a Project</a>
+                </div>
+            
+            <div class="box">
+                <div class="icons">
+                    <i class="bx bx-pen"></i>
+
+                </div>
+                <h3>Graphics Designer</h3>
+                <p>Good graphics design is more than just making things look pretty, it's about communicating ideas and emotions through visual elements.
+                    Whether it's a logo or an illustration or a commplete brand identtity, I use my skills to create functional and apealing designs.
+                </p>
+                <a href="#" class="btn">Start a Project </a>
+            </div>
+        </div>
+        
+      </section>
+
+      <section class="others" >
+        <div class="sub-text-title">
+            <h2>Other <span>Services</span></h2>
+        </div>
+        <div class="others-img">
+            <img src="./images/" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+            <h3>Web Development <span>Training </span></h3>
+            <p>
+I'm passionate about helping people learn the skills they need to succeed in the world of web development. My training courses focus on the basics of HTML, CSS and
+JavaScript giving student a solid foundation to build on. 
+            </p>
+        </div>
+        <div>
+            <a href="#" class="btn">Enrol Now</a>
+        </div>
+    </section>
+
+        <!--footer session-->
+        <footer class="footer">
+            <div class="attribution">
+                <p>Design with <i class="bx bx-heart"> </i> By Mujeebah </p>
+            </div>
+            <div class="move-up">
+                <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+            </div>
+                </footer>
+            
+
+                <!--JS for togglemenu-->
+                <script>
+                    var navMenu = document.getElementById("navMenu");
+                    function openMenu() {
+                        navMenu.style.right = "0";
+                    }
+
+                    function closeMenu() {
+                        navMenu.style.right = "-200px";
+                    }
+                </script>
+</body>
+</html>

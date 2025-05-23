@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title> 
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <a href="#"><img src="./images/logo.png" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bx bx-window-close' onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+
+<!--sub-header--> 
+<section class="sub-header" id="sub-header">
+    <h1>Recent <span> Projects</span></h1>
+
+</section>
+
+<!-- portfolio section-->
+<section class="portfolio" id="portfolio">
+    <div class="sub-text-title">
+        <h2>Frontend Development<span> Projects</span></h2>
+    </div>
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="./images/project1.png" alt="">
+            <div class="cover">
+                <h5>Visual Designs </h5>
+                <p>A complete solution for frontend development, user-centric design and graphics design to give your business a cutting-edge online presence</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./images/project2.png" alt="">
+            <div class="cover">
+                <h5>Visual Designs </h5>
+                <p>A complete solution for frontend development, user-centric design and graphics design to give your business a cutting-edge online presence </p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+
+        <section class="portfolio" id="portfolio">
+            <div class="sub-text-title">
+        <h2>UI/UX Design<span> Projects</span></h2>
+    </div>
+    <div class="portfolio-content">
+
+        <div class="row">
+            <img src="./images/project3.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs </h5>
+                <p>A complete solution for frontend development, user-centric design and graphics design to give your business a cutting-edge online presence </p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./images/project4.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs </h5>
+                <p>A complete solution for frontend development, user-centric design and graphics design to give your business a cutting-edge online presence</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+    </div>
+   </section>
+
+
+   <section class="portfolio" id="portfolio">
+            <div class="sub-text-title">
+        <h2>Graphics Design <span> Projects</span></h2>
+    </div>
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="./images/project5.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs </h5>
+                <p>A complete solution for frontend development, user-centric design and graphics design to give your business a cutting-edge online presence (Disclaimer: Copied design)</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./images/project5.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs </h5>
+                <p>A complete solution for frontend development, user-centric design and graphics design to give your business a cutting-edge online presence (Disclaimer: Copied design)</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   
+       
+
+        <!--footer session-->
+        <footer class="footer">
+            <div class="attribution">
+                <p>Design with <i class="bx bx-heart"> </i> By Mujeebah </p>
+            </div>
+            <div class="move-up">
+                <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+            </div>
+                </footer>
+
+                <!--JS for togglemenu-->
+                <script>
+                    var navMenu = document.getElementById("navMenu");
+                    function openMenu() {
+                        navMenu.style.right = "0";
+                    }
+
+                    function closeMenu() {
+                        navMenu.style.right = "-200px";
+                    }
+                </script>
+</body>
+</html>
