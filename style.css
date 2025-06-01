@@ -161,7 +161,8 @@ span {
 }
 
 .btn:hover {
-  transform: scale(0, 9);
+  transform: scale(1.15);
+  cursor: pointer;
 }
 
 .about {
@@ -188,7 +189,7 @@ span {
   font-weight: 600;
   color: var(--text-color-one);
   line-height: 1.7;
-  margin: 15px 0 30px;
+  margin: 15px 0 1rem;
 }
 
 .about-text p {
