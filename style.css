@@ -19,7 +19,7 @@
   --main-color: #ff3278;
   --big-font: 5rem;
   --h2-font: 5rem;
-  --p-font: 1.1rem;
+  --p-font: 1.7rem;
 }
 
 html,
@@ -96,8 +96,12 @@ span {
   justify-content: center;
 }
 
+.home-about{
+  padding-bottom: 10rem;
+}
+
 .show {
-  margin: 100px 0 20px;
+  margin: 10px 0 20px;
 }
 
 .first {
@@ -136,8 +140,8 @@ span {
 }
 
 .home-content p {
-  color: var(--text-color-two);
-  font-size: var(--p-font);
+  color: var(--text-color-one);
+  font-size: 1.2rem;
   line-height: 1.8;
   margin-bottom: 40px;
 }
@@ -147,6 +151,7 @@ span {
   align-items: center;
   justify-content: center;
 }
+
 
 .btn {
   display: inline-block;
@@ -193,11 +198,19 @@ span {
 }
 
 .about-text p {
-  font-size: var(--p-font);
+  font-size: 1.4rem;
   font-family: "Times New Roman", Times, serif;
   line-height: 1.8;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   color: var(--text-color-two);
+}
+
+.grid-text p{
+  font-size: 1.3rem;
+}
+
+:hover .grid-text{
+  scale: 1.05;
 }
 
 .services {
@@ -265,6 +278,7 @@ span {
 
 .portfolio-content .row img {
   width: 100%;
+  height: 30vh;
   display: block;
   border-radius: 8px;
   border: 16px solid var(--bg-color-two);
@@ -283,25 +297,25 @@ span {
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), #ff3278);
   border-radius: 8px;
-  padding: 0 40px;
+  padding: 0 20px;
   transition: height 0.5s;
 }
 
 .portfolio-content .row .cover h5 {
   font-size: 20px;
   font-weight: 600;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .portfolio-content .row .cover p {
   text-align: center;
   color: var(--text-color-two);
-  line-height: 1.7;
+  line-height: 1.4;
 }
 
 .portfolio-content .row .cover i {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   font-size: 17px;
   margin-top: 12px;
   display: flex;
@@ -313,11 +327,29 @@ span {
 }
 
 .portfolio-content .row:hover img {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .portfolio-content .row:hover .cover {
   height: 100%;
+}
+
+figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+figure img{
+  width: 60px;
+}
+
+.icons{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
 .contact {
@@ -445,6 +477,11 @@ span {
   font-size: 15px;
   columns: var(--text-color-one);
   background-color: var(--main-color);
+}
+
+.footer .move-up i{
+  font-size: 30px;
+  color: var(--main-color);
 }
 
 @media (max-width: 1480px) {
