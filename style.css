@@ -278,7 +278,7 @@ span {
 
 .portfolio-content .row img {
   width: 100%;
-  height: 30vh;
+  height: 35vh;
   display: block;
   border-radius: 8px;
   border: 16px solid var(--bg-color-two);
@@ -396,7 +396,7 @@ figure img{
   color: var(--text-color-one);
   transform: translateY(5px);
 }
-.contact-text .icons .i {
+.contact-text .icons i {
   width: 45px;
   height: 45px;
   color: var(--text-color-one);
@@ -408,7 +408,7 @@ figure img{
   transition: all 0.45s ease;
 }
 
-.contact-text .icons .i:hover {
+.contact-text .icons i:hover {
   color: var(--main-color);
 }
 
