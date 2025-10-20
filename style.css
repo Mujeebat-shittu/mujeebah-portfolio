@@ -18,6 +18,7 @@
   --text-color-two: light-dark(#665, #aaa);
   --about-text-color: light-dark(#aaa, #fff8f3);
   --main-color: light-dark(#e0527b, #ff3278);
+  --row-text-color: light-dark(#f7ebe5, #aaa);
   --big-font: 5rem;
   --h2-font: 5rem;
   --p-font: 1.7rem;
@@ -372,11 +373,12 @@ span {
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0;
+  color: var(--row-text-color);
 }
 
 .portfolio-content .row .cover p {
   text-align: center;
-  color: var(--text-color-two);
+  color: var(--row-text-color);
   line-height: 1.4;
 }
 
@@ -393,9 +395,6 @@ span {
   color: var(--bg-color-one);
 }
 
-.bx-github {
-  background-color: black;
-}
 
 .portfolio-content .row:hover img {
   transform: scale(1.2);
