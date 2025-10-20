@@ -157,7 +157,11 @@ span {
   font-weight: 700;
   color: var(--about-text-color);
   line-height: 1.1;
-  margin: 0 0 8px;
+  margin: 0 0 6px;
+}
+
+:hover .home-content h1 {
+  scale: 1.05;
 }
 
 .home-content h3 {
@@ -233,9 +237,6 @@ span {
   color: var(--about-text-color);
 }
 
-.grid-text p {
-  font-size: 1.3rem;
-}
 
 .about-text {
   max-width: 700px;
