@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title> 
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="./style.css">
 
 </head>
+
 <body>
     <!--header-->
     <header class="header">
@@ -21,15 +23,17 @@
                 <li><a href="./portfolio.html">Portfolio</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
-            
+
+            <button id="theme-toggle">Toggle Theme</button>
+
         </div>
         <i class='bx bx-menu' onclick="openMenu()"></i>
     </header>
 
-<!--sub-header--> 
-<section class="sub-header" id="sub-header">
-    <h1><span>My</span>Services</h1>
-</section>
+    <!--sub-header-->
+    <section class="sub-header" id="sub-header">
+        <h1><span>My</span>Services</h1>
+    </section>
 
 
     <!-- services section-->
@@ -44,49 +48,43 @@
 
                 </div>
                 <h3>Frontend Development</h3>
-                <p>I take beautiful UI designs and bring them to life with clean, functional code. Using  HTML, CSS and JavaScript, I make sure every detail is just right.</p>
+                <p>I take beautiful UI designs and bring them to life with clean, functional code. Using HTML, CSS and
+                    JavaScript, I make sure every detail is just right.</p>
                 <a href="mailto:mujeebatshittu@gmail.com" class="btn">Start a Project </a>
             </div>
 
 
-                <div class="box">
-                    <div class="icons">
-                        <i class="bx bx-devices"></i>
-    
-                    </div>
-                    <h3>UI/UX Design</h3>
-                    <p> Design is more than just making things look pretty, it's about solving problem in a user-friendly way. Approaching UI/UX with a focus
-                        on the end-user, I help create functional, intuitive and exceptional user interface.Let's create an experience that delights your users and align with your goals</p>
-                    <a href="mailto:mujeebatshittu@gmail.com" class="btn">Start a Project</a>
+            <div class="box">
+                <div class="icons">
+                    <i class="bx bx-devices"></i>
+
                 </div>
-            
-            
+                <h3>UI/UX Design</h3>
+                <p> Design is more than just making things look pretty, it's about solving problem in a user-friendly
+                    way. Approaching UI/UX with a focus
+                    on the end-user, I help create functional, intuitive and exceptional user interface.Let's create an
+                    experience that delights your users and align with your goals</p>
+                <a href="mailto:mujeebatshittu@gmail.com" class="btn">Start a Project</a>
+            </div>
+
+
         </div>
-        
-      </section>
+
+    </section>
 
 
-        <!--footer session-->
-        <footer class="footer">
-            <div class="attribution">
-                <p>Designed By Mujeebah </p>
-            </div>
-            <div class="move-up">
-                <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
-            </div>
-                </footer>
-            
+    <!--footer session-->
+    <footer class="footer">
+        <div class="attribution">
+            <p>Designed By Mujeebah </p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
 
-                <!--JS for togglemenu-->
-                <script>
-                    var navMenu = document.getElementById("navMenu");
-                    function openMenu() {
-                        navMenu.style.right = "0";
-                    }
 
-                    function closeMenu() {
-                        navMenu.style.right = "-200px";
-                    }
-                </script>
+    <script src="./script.js"></script>
 </body>
+
 </html>

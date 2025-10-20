@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title> 
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="./style.css">
 
 </head>
+
 <body>
     <!--header-->
     <header class="header">
@@ -21,7 +23,9 @@
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            
+
+            <button id="theme-toggle">Toggle Theme</button>
+
         </div>
         <i class='bx bx-menu' onclick="openMenu()"></i>
     </header>
@@ -29,40 +33,51 @@
     <!--home section-->
     <section class="home" id="home">
         <div class="home-content">
-        <div class="show">
-            <span class="first">Hello</span>
-            <span class="second">I'm</span>
+            <div class="show">
+                <span class="first">Hello</span>
+                <span class="second">I'm</span>
+            </div>
+            <h1>Mujeebat Shittu</h1>
+            <h3>Frontend <span>Engineer</span></h3>
+            <p>I use the unique combination of design and technology<br>skills to create products that solve real-world
+                problems.</p>
+            <div class="button">
+                <a href="./about.html" class="btn">About Me</a>
+            </div>
         </div>
-        <h1>Mujeebat Shittu</h1>
-        <h3>Frontend <span>Engineer</span></h3>
-        <p>I use the unique combination of design and technology<br>skills to create products that solve real-world problems.</p>
-    <div class="button">
-        <a href="./about.html" class="btn">About Me</a>
-    </div>
-    </div>
     </section>
     <!-- about session-->
-     <section class="about" id="about">
+    <section class="about" id="about">
         <div class="about-image">
             <img src="./images/hijabis.png" alt="">
         </div>
         <div class="about-text">
             <h2>About <span>Me</span></h2>
             <h4>Frontend Engineer</h4>
-            <p>I'm an experienced engineer who is passionate about building, learning and also creating beautiful and intuitive user experiences. <br><br>
-                Proficient in HTML, CSS, TailwindCSS, TypeScript and JavaScript. <br><br>
-                A strong believer in the power of collaboration and I always look forward to working with other talented designers and developers to create
-                amazing products. <br><br>
-                I have a proven record of creating seamless experiences and looks forward to how much digital design shapes the future. <br><br>
-                I'm a student at AltSchool Africa, a testament of my dedication to continuous improvement.
+            <p>
+            <ul>
+                <li>I'm an experienced engineer who is passionate about building, learning and also creating beautiful
+                    and
+                    intuitive user experiences.</li><br>
+                <li> Skilled in JavaScript (ES6+), React, TypeScript, Tailwind CSS and modern UI/UX practices,
+                    with hands-on practice integrating APIs and optimizing performance </li><br>
+                <li>A strong believer in the power of collaboration and I always look forward to working with other
+                    talented
+                    designers and developers to create
+                    amazing products.</li><br>
+                <li>I have a proven record of creating seamless experiences and looks forward to how much digital design
+                    shapes the future.</li><br>
+                <li>I'm a student at AltSchool Africa, a testament of my dedication to continuous improvement.
+                </li>
+            </ul>
 
             </p>
             <a href="#" class="btn">More About</a>
         </div>
-     </section>
+    </section>
 
-     <!-- services section-->
-      <section class="services" id="services">
+    <!-- services section-->
+    <section class="services" id="services">
         <div class="text-title">
             <h2><span>My</span>Services</h2>
         </div>
@@ -73,140 +88,150 @@
 
                 </div>
                 <h3>Frontend Development</h3>
-                <p>I'm proficient in HTML, CSS, JavaScript and TypeScript. I'm always up-to-date on the latest web development technologies</p>
+                <p>I'm proficient in HTML, CSS, JavaScript and TypeScript. I'm always up-to-date on the latest web
+                    development technologies</p>
                 <a href="/portfolio.html" class="btn">Read More</a>
             </div>
 
 
-                <div class="box">
-                    <div class="icons">
-                        <i class="bx bx-devices"></i>
-    
-                    </div>
-                    <h3>UI/UX Design</h3>
-                    <p> Need a website design or a redesign of an existing product, I can help you create a functional and excepitonal user interface.</p>
-                    <a href="#" class="btn">Read More</a>
+            <div class="box">
+                <div class="icons">
+                    <i class="bx bx-devices"></i>
+
                 </div>
-            
+                <h3>UI/UX Design</h3>
+                <p> Need a website design or a redesign of an existing product, I can help you create a functional and
+                    excepitonal user interface.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
         </div>
-        
-      </section>
-      <!-- portfolio section-->
-       <section class="portfolio" id="portfolio">
+
+    </section>
+    <!-- portfolio section-->
+    <section class="portfolio" id="portfolio">
         <div class="text-title">
             <h2><span>Recent</span>Projects</h2>
         </div>
         <div class="portfolio-content">
             <div class="row">
-            <img src="./images/ecommerce-page.png" alt="">
-            <div class="cover">
-                <h5>Ecommerce Product Page</h5>
-                    <p>A responsive ecommerce product page built with React, TypeScript and Tailwind CSS, featuring an interactive cart, image gallery with slider, and thumbnail previews. Click on the icon below to view the webpage</p>
-                <a href="https://ecommerce-website-mj.netlify.app/"><i class="bx bx-link-external"></i></a>
-            </div>
-        </div>
-
-        <div class="row">
-            <img src="./images/space-tourism.png" alt="">
-            <div class="cover">
-                <h5>Space Tourism </h5>
-                <p>A React and TypeScript application with multi pages and nested sub-routes, features a custom 404 page and responsive layouts built with Tailwind CSS. Demonstrates scalable routing structure and reusable component design. Click on the icon below to view the webpage.</p>
-                <a href="https://space-tourism-mj.netlify.app/"><i class="bx bx-link-external"></i></a>
-            </div>
-        </div>
-
-        <div class="row">
-            <img src="./images/credit-card.png" alt="">
-            <div class="cover">
-                <h5>Interactive Credit Card App </h5>
-                <p>A React app featuring a credit card input form with live display, basic validation, and a thank-you page after submission. Click on the icon below to view the webpage </p>
-                <a href="https://react-interactive-credit-card-form.netlify.app/"><i class="bx bx-link-external"></i></a>
-            </div>
-        </div>
-
-            <div class="row">
-            <img src="./images/insta-spots.png" alt="">
-            <div class="cover">
-                <h5>Insta Spots</h5>
-                <p>A postcard-style sightseeing app where anyone with the link can add new spots to a shared gallery,
-                    browse beautiful locations and click on existing cards to reveal a pop-up with more details. 
-                    Customize your profile for a personal touch. Click on the icon below to view the webpage</p>
-                <a href="https://insta-spots-react.netlify.app/"><i class="bx bx-link-external"></i></a>
-            </div>
-        </div>
-
-
-            <div class="row">
-            <img src="./images/api-todo.png" alt="">
-            <div class="cover">
-                <h5>React API ToDo </h5>
-                <p>Building a ToDo app using API Integration, axios, pagination, Tanstack Query, React Router and other react concepts. Click on the icon below to view the webpage</p>
-                <a href="https://react-api-todo.netlify.app/"><i class="bx bx-link-external"></i></a>
-            </div>
-        </div>
-
-         <div class="row">
-            <img src="./images/project2.png" alt="">
-            <div class="cover">
-                <h5>React Razzle Dazzle</h5>
-                <p>A collection of beginner-friendly React components and mini projects built to practice core concepts like state, events, conditional rendering, and effects. Click on the icon below to view the webpage</p>
-                <a href="https://react-razzle-dazzle.netlify.app/"><i class="bx bx-link-external"></i></a>
-            </div>
-        </div>
-
-       </section>
-
-       <!-- contact section-->
-        <section class="contact" id="contact">
-            <div class="contact-text">
-                <h2>Contact <span>Me</span></h2>
-                <h4>Whatever your project maybe.....</h4>
-                <p>As a frontend developer, I'm proficient in HTML, TailwindCSS, JavaScript, React and TypeScript. I am passionate about creating unique and effective
-                    experiences. </p>
-                <div class="list">
-                    <li><a href="mailto:mujeebatshittu@gmail.com">Mail</a></li>
-                    <li><a href="https://www.linkedin.com/in/mujeebat-shittu-32683924a/">LinkedIn</a></li>
-                    <li><a href="https://github.com/Mujeebat-shittu">Github</a></li>
+                <img src="./images/ecommerce-page.png" alt="">
+                <div class="cover">
+                    <h5>Ecommerce Product Page</h5>
+                    <p>A responsive ecommerce product page built with React, TypeScript and Tailwind CSS, featuring an
+                        interactive cart, image gallery with slider, and thumbnail previews. Click on the icon below to
+                        view the webpage</p>
+                    <a href="https://ecommerce-website-mj.netlify.app/"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mujeebat-shittu/Ecommerce-website"><i class="bx bx-github"></i></a>
                 </div>
-                <div class="icons">
-                    <a href="https://github.com/Mujeebat-shittu"><i class="bx bxl-github"></i></a>
-                    <a href="https://www.linkedin.com/in/mujeebat-shittu-32683924a/"><i class="bx bxl-linkedin"></i></a>
-                    <a href="https://x.com/mujeebat_honey"><i class="bx bxl-twitter"></i></a>                </div>
             </div>
-     <!-- <div class="contact-form">
-        <form action="">
-            <input type="name" id="" placeholder="Your Name" required><br>
-            <input type="email" id="" placeholder="Your Email" required><br>
-            <input type="number" id="" placeholder="Your Mobile Number" required><br>
-            <textarea name="" id="" cols="35" rows="10" required placeholder="How Can I Help You?"></textarea><br>
-            <input type="submit" class="submit" value="Send Message" required>
-        </form>
-     </div> -->
-        </section>
 
-        <!--footer session-->
-        <footer class="footer">
-            <div class="attribution">
-                <p>Designed By Mujeebah </p>
+            <div class="row">
+                <img src="./images/space-tourism.png" alt="">
+                <div class="cover">
+                    <h5>Space Tourism </h5>
+                    <p>A React and TypeScript application with multi pages and nested sub-routes, features a custom 404
+                        page and responsive layouts built with Tailwind CSS. Demonstrates scalable routing structure and
+                        reusable component design. Click on the icon below to view the webpage.</p>
+                    <a href="https://space-tourism-mj.netlify.app/"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mujeebat-shittu/space-tourism"><i class="bx bx-github"></i></a>
+                </div>
             </div>
-            <div class="move-up">
-                <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+
+            <div class="row">
+                <img src="./images/credit-card.png" alt="">
+                <div class="cover">
+                    <h5>Interactive Credit Card App </h5>
+                    <p>A React app featuring a credit card input form with live display, basic validation, and a
+                        thank-you page after submission. Click on the icon below to view the webpage </p>
+                    <a href="https://react-interactive-credit-card-form.netlify.app/"><i
+                            class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mujeebat-shittu/interactive-card"><i class="bx bx-github"></i></a>
+                </div>
             </div>
-                </footer>
 
-                <!--JS for togglemenu-->
-                <script>
-                    var navMenu = document.getElementById("navMenu");
-                    function openMenu() {
-                        navMenu.style.right = "0";
-                    }
+            <div class="row">
+                <img src="./images/insta-spots.png" alt="">
+                <div class="cover">
+                    <h5>Insta Spots</h5>
+                    <p>A postcard-style sightseeing app where anyone with the link can add new spots to a shared
+                        gallery,
+                        browse beautiful locations and click on existing cards to reveal a pop-up with more details.
+                        Customize your profile for a personal touch. Click on the icon below to view the webpage</p>
+                    <a href="https://insta-spots-react.netlify.app/"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mujeebat-shittu/insta-spots-react"><i class="bx bx-github"></i></a>
+                </div>
+            </div>
 
-                    function closeMenu() {
-                        navMenu.style.right = "-200px";
-                    }
-                </script>
 
+            <div class="row">
+                <img src="./images/api-todo.png" alt="">
+                <div class="cover">
+                    <h5>React API ToDo </h5>
+                    <p>Building a ToDo app using API Integration, axios, pagination, Tanstack Query, React Router and
+                        other react concepts. Click on the icon below to view the webpage</p>
+                    <a href="https://react-api-todo.netlify.app/"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mujeebat-shittu/react-api-todo"><i class="bx bx-github"></i></a>
+                </div>
+            </div>
 
+            <div class="row">
+                <img src="./images/project2.png" alt="">
+                <div class="cover">
+                    <h5>React Razzle Dazzle</h5>
+                    <p>A collection of beginner-friendly React components and mini projects built to practice core
+                        concepts like state, events, conditional rendering, and effects. Click on the icon below to view
+                        the webpage</p>
+                    <a href="https://react-razzle-dazzle.netlify.app/"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/Mujeebat-shittu/react-razzle-dazzle"><i class="bx bx-github"></i></a>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- contact section-->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Whatever your project maybe.....</h4>
+            <p>As a frontend developer, I'm proficient in HTML, TailwindCSS, JavaScript, React and TypeScript. I am
+                passionate about creating unique and effective
+                experiences. </p>
+            <div class="list">
+                <li><a href="mailto:mujeebatshittu@gmail.com">Mail</a></li>
+                <li><a href="https://www.linkedin.com/in/mujeebat-shittu-32683924a/">LinkedIn</a></li>
+                <li><a href="https://github.com/Mujeebat-shittu">Github</a></li>
+            </div>
+            <div class="icons">
+                <a href="https://github.com/Mujeebat-shittu"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/mujeebat-shittu-32683924a/"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://x.com/mujeebat_honey"><i class="bx bxl-twitter"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form name="contact" method="post" data-netlify="true">
+                <input type="name" id="" placeholder="Your Name" required><br>
+                <input type="email" id="" placeholder="Your Email" required><br>
+                <input type="number" id="" placeholder="Your Mobile Number" required><br>
+                <textarea name="purpose" id="" cols="35" rows="10" required
+                    placeholder="How Can I Help You?"></textarea><br>
+                <input type="submit" class="submit" value="Send Message" required>
+            </form>
+        </div>
+    </section>
+
+    <!--footer session-->
+    <footer class="footer">
+        <div class="attribution">
+            <p>Designed By Mujeebah </p>
+        </div>
+        <div class="move-up">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
 
 </body>
+
 </html>
