@@ -148,7 +148,7 @@ span {
   display: inline-block;
   font-size: 20px;
   font-weight: 500;
-  color: var(--about-color-two);
+  color: var(--about-text-color);
 }
 
 .home-content h1 {
